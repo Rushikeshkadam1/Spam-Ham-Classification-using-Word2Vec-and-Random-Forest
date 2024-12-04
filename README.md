@@ -60,3 +60,16 @@ Classification Report:
     accuracy                           0.98      1080
    macro avg       0.97      0.92      0.95      1080
 weighted avg       0.98      0.98      0.98      1080
+
+
+## Conclusion
+This project demonstrates the effectiveness of Word2Vec embeddings for text classification tasks. By leveraging pre-trained embeddings and training a Random Forest classifier, the model can achieve high accuracy in distinguishing between spam and ham messages. This approach can be extended to other text classification problems as well.
+
+## Future Work
+**Hyperparameter tuning:** The Random Forest model could benefit from hyperparameter tuning to further improve accuracy.
+
+**Deep learning models:** Exploring more advanced models like LSTM or Transformer-based architectures could potentially lead to better performance.
+
+**Data augmentation:** Increasing the dataset size by including more diverse messages could improve the model's robustness.
+
+**Real-time classification:** Implementing the model in a real-time spam detection system could enhance its practical usability in email or messaging platforms.
